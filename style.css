@@ -1,0 +1,348 @@
+body{
+
+    font-family: 'Lato', sans-serif;
+    padding:0;
+    margin:0;
+}
+
+/* top start*/
+
+.nav{
+
+    background-color: white;
+    color: white;
+    padding: 20px 50px;
+    
+}
+
+
+
+
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    
+}
+
+.searchInput{
+    border: none;
+    background-color: transparent;
+    
+}
+
+.searchInput::placeholder{
+    color: lightgray;
+}
+
+.limitedoffer{
+    font-size: 20px;
+    border-bottom: 2px solid green ;
+    cursor: pointer;
+}
+
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItem{
+    margin-right: 50px;
+    cursor: pointer;
+    color: black;
+    font-weight: 400;
+}
+
+/* top complete*/
+
+/* banner start*/
+
+.banner{
+    background: #009579;
+
+}
+
+.banner_content{
+    padding: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.banner_text{
+    flex-grow: 1;
+    line-height: 1.4;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.banner_close{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+/* banner close*/
+
+/* products start */
+
+.products{
+    display: flex;
+    align-items: center;
+}
+
+.h4{
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 10px;
+
+}
+
+
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+
+
+}
+
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s ;
+    background: #f2f2f2;
+}
+
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px #0000003b;
+    transform: translate(0px, -8px);
+
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.p{
+    text-align: center;
+    color: #b2bec3;
+    padding-top:  0 8px;
+}
+
+.h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+}
+
+.ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+
+}
+
+.li{
+    
+    padding-top: 5px;
+
+}
+
+.fa{
+    font-size: 26px;
+    transition: .4s;
+    margin: 3px;
+
+
+}
+
+.checked{
+    color: #ff9f43;
+
+}
+
+.fa:hover{
+    transform: scale(1.3);
+    transition: .6s;
+
+}
+
+.button{
+    width:150px;
+    height: 50px;
+    cursor: pointer;
+    margin: 5px;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+}
+
+.cart{
+    background: #fdbb2d;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    border-right: 2px solid black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* products complete*/
+
+
+
+
+/* feature start */
+
+ .features{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 50px;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.featureIcon {
+    width: 50px;
+    height: 50px;
+
+}
+
+.featureTitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.featureDesc{
+    color: gray;
+    width: 50%;
+    height: 100px;
+}
+
+/* feature complete*/
+
+
+/* footer start */
+
+.footer{
+    display: flex;
+}
+
+.footerLeft{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+
+.fMenuTitle{
+ font-size: 30px;
+ 
+}
+
+.fMenuList{
+    padding: 0;
+    list-style: none;
+}
+
+.fListItem{
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+
+}
+
+.footerRight{
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.fInput{
+    padding: 5px;
+}
+
+.fbutton{
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+.fIcons{
+    display: flex;
+
+}
+
+.fIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+
+}
+
+.copyright{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/* footer complete*/
+
+
